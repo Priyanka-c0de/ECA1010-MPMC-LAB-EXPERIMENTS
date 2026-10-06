@@ -1,0 +1,33 @@
+8000
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\li195\cf1\f0\fs20 PRIYANKA G [192524124]\cf2 
+\par LDA 4200h
+\par CMA
+\par STA 4201h
+\par INR A
+\par STA 4202
+\par HLT\cf0 
+\par }
+<End Codes>
+20
+1| 4200| 4A
+2| 4201| B5
+3| 4202| B6
+<End UserData>
+20
+1| 8000| 3A
+2| 8001| 00
+3| 8002| 42
+4| 8003| 2F
+5| 8004| 32
+6| 8005| 01
+7| 8006| 42
+8| 8007| 3C
+9| 8008| 32
+10| 8009| 02
+11| 800A| 42
+12| 800B| 76
+<End HexData>
+
+<End Comment>
