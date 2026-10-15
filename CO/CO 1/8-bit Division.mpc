@@ -1,0 +1,61 @@
+8000
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\li195\cf1\f0\fs20 PRIYANKA G [192524124]\cf2 
+\par LDA 4201h
+\par MOV E A
+\par LDA 4200h
+\par MOV B A
+\par MOV A E
+\par MVI C 00h
+\par AGAIN: CMP B
+\par JC STORE
+\par SUB B
+\par INR C
+\par JMP AGAIN
+\par STORE: STA 4203h
+\par MOV A C
+\par STA 4202h
+\par HLT
+\par \cf0 
+\par }
+<End Codes>
+17
+1| 4200| 4B
+2| 4201| 5B
+4| 4202| 01
+5| 4203| 10
+<End UserData>
+162
+1| 8000| 3A
+2| 8001| 01
+3| 8002| 42
+4| 8003| 5F
+5| 8004| 3A
+6| 8005| 00
+7| 8006| 42
+8| 8007| 47
+9| 8008| 7B
+10| 8009| 0E
+11| 800A| 00
+12| 800B| B8
+13| 800C| DA
+14| 800D| 14
+15| 800E| 80
+16| 800F| 90
+17| 8010| 0C
+18| 8011| C3
+19| 8012| 0B
+20| 8013| 80
+21| 8014| 32
+22| 8015| 03
+23| 8016| 42
+24| 8017| 79
+25| 8018| 32
+26| 8019| 02
+27| 801A| 42
+28| 801B| 76
+<End HexData>
+
+
+<End Comment>
