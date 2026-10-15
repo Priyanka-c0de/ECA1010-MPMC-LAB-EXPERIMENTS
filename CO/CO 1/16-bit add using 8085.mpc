@@ -1,0 +1,52 @@
+8000
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\li195\cf1\f0\fs20 
+\par LHLD 4510
+\par XCHG
+\par LHLD 4512
+\par DAD D
+\par SHLD 4514
+\par MVI A 00
+\par JNC SKIP
+\par MVI A 01
+\par SKIP: STA 4516
+\par HLT
+\par }
+<End Codes>
+20
+1| 4510| 14
+2| 4511| 26
+3| 4512| 45
+4| 4513| 52
+6| 4514| 59
+7| 4515| 78
+8| 4516| 00
+<End UserData>
+26
+1| 8000| 2A
+2| 8001| 10
+3| 8002| 45
+4| 8003| EB
+5| 8004| 2A
+6| 8005| 12
+7| 8006| 45
+8| 8007| 19
+9| 8008| 22
+10| 8009| 14
+11| 800A| 45
+12| 800B| 3E
+13| 800C| 00
+14| 800D| D2
+15| 800E| 12
+16| 800F| 80
+17| 8010| 3E
+18| 8011| 01
+19| 8012| 32
+20| 8013| 16
+21| 8014| 45
+22| 8015| 76
+<End HexData>
+
+
+<End Comment>
