@@ -1,0 +1,89 @@
+8000
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue0;}
+\viewkind4\uc1\pard\li195\cf1\f0\fs20 PRIYANKA G [192524124]\cf2 
+\par LDA 4500
+\par ANI 0F
+\par STA 4505
+\par LDA 4500
+\par ANI F0
+\par STA 4506
+\par LDA 4500
+\par CMA
+\par STA 4507
+\par INR A
+\par STA 4508
+\par LHLD 450A
+\par MOV A L
+\par CMA
+\par MOV L A
+\par MOV A H
+\par CMA
+\par MOV H A
+\par SHLD 450C
+\par INX H
+\par SHLD 450E
+\par HLT\cf0 
+\par }
+<End Codes>
+20
+1| 4500| A7
+2| 4505| 07
+3| 4506| A0
+4| 4507| 58
+5| 4508| 59
+6| 450A| 34
+7| 450B| 12
+9| 450C| CB
+10| 450D| ED
+11| 450E| CC
+12| 450F| ED
+<End UserData>
+45
+1| 8000| 3A
+2| 8001| 00
+3| 8002| 45
+4| 8003| E6
+5| 8004| 0F
+6| 8005| 32
+7| 8006| 05
+8| 8007| 45
+9| 8008| 3A
+10| 8009| 00
+11| 800A| 45
+12| 800B| E6
+13| 800C| F0
+14| 800D| 32
+15| 800E| 06
+16| 800F| 45
+17| 8010| 3A
+18| 8011| 00
+19| 8012| 45
+20| 8013| 2F
+21| 8014| 32
+22| 8015| 07
+23| 8016| 45
+24| 8017| 3C
+25| 8018| 32
+26| 8019| 08
+27| 801A| 45
+28| 801B| 2A
+29| 801C| 0A
+30| 801D| 45
+31| 801E| 7D
+32| 801F| 2F
+33| 8020| 6F
+34| 8021| 7C
+35| 8022| 2F
+36| 8023| 67
+37| 8024| 22
+38| 8025| 0C
+39| 8026| 45
+40| 8027| 23
+41| 8028| 22
+42| 8029| 0E
+43| 802A| 45
+44| 802B| 76
+<End HexData>
+
+<End Comment>
